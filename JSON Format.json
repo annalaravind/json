@@ -1,0 +1,299 @@
+{
+  "_N_E": [
+    {
+      "diagram-parser/src": [
+        {
+          "diagrams": [
+            {
+              "cloudArchitecture": [
+                {
+                  "generated": "grammer.js"
+                },
+                "CloudArchitecture.ts",
+                "errors.ts",
+                "index.ts"
+              ]
+            },
+            {
+              "entityRelationship": [
+                {
+                  "generated": "grammer.js"
+                },
+                "EntityRelationship.ts",
+                "error.ts",
+                "index.ts",
+                "types.ts"
+              ]
+            },
+            {
+              "flowChart": [
+                {
+                  "generated": "grammer.js"
+                },
+                "FlowChart.ts",
+                "error.ts",
+                "index.ts"
+              ]
+            }
+          ]
+        },
+        {
+          "utils": [
+            "diagram.ts",
+            "error.ts",
+            "index.ts",
+            "lines.ts",
+            "parser.ts"
+          ]
+        }
+      ]
+    },
+    {
+      "exaclidraw/src/utils": [
+        {
+          "graphviz": [
+            {
+              "cloudArchitectureToDOT": [
+                "generateClusters.ts",
+                "generateNodes.ts",
+                "generateRealtionships.ts",
+                "generateUnconnectedItems.ts",
+                "index.ts",
+                "util.ts"
+              ]
+            },
+            {
+              "entityRelationshipToDOT": [
+                "index.ts"
+              ]
+            },
+            {
+              "flowChartToDOT": [
+                "generateVerticalGroups.ts",
+                "index.ts",
+                "nodes.ts",
+                "shapeSizes.ts"
+              ]
+            },
+            {
+              "graphvizToDOT": [
+                {
+                  "cloudArchitecture": [
+                    "edges.ts",
+                    "index.ts",
+                    "nodes.ts"
+                  ]
+                },
+                {
+                  "entityRelationship": [
+                    "constans.ts",
+                    "edges.ts",
+                    "index.ts",
+                    "tables.ts"
+                  ]
+                },
+                {
+                  "flowChart": [
+                    "edges.ts",
+                    "index.ts"
+                  ]
+                },
+                {
+                  "lineLayoutUtils": [
+                    "edgeMethods.ts",
+                    "groupLines.ts",
+                    "lanesAndAlleys.ts",
+                    "utils.ts"
+                  ]
+                },
+                "title.ts",
+                "utils.ts"
+              ]
+            },
+            "breakText.ts",
+            "misc.ts",
+            "worker.ts"
+          ]
+        },
+        "shapes.ts"
+      ]
+    },
+    {
+      "node_modules": [
+        {
+          "@hpcc-js/wasm/dist": "index.ts"
+        },
+        {
+          "is-observable": "index.ts"
+        },
+        {
+          "lodash": [
+            "_Dataview.js",
+            "_Hash.js",
+            "_ListCache.js",
+            "_Map.js",
+            "_MapCache.js",
+            "_Promise.js",
+            "_Set.js",
+            "_SetCache.js",
+            "_Stack.js",
+            "_Symbol.js",
+            "_Uint8Array.js",
+            "_WeakMap.js",
+            "_arrayFilter.js",
+            "_arrayLikeKeys.js",
+            "_arrayMap.js",
+            "_arrayPush.js",
+            "_arraySame.js",
+            "_associndexOf.js",
+            "_baseGetAllKeys.js",
+            "_baseGetTag.js",
+            "_baselsArguments.js",
+            "_baselsEqual.js",
+            "_baselsEqualDeep.js",
+            "_baselsNative.js",
+            "_baselsTypedArray.js",
+            "_baseKeys.js",
+            "_basePropertyOf.js",
+            "_baseSlice.js",
+            "_baseTimes.js",
+            "_baseToString.js",
+            "_baseTrim.js",
+            "_baseUnary.js",
+            "_cacheHas.js",
+            "_coreJsData.js",
+            "_equalArrays.js",
+            "_equalBytag.js",
+            "_equalObjects.js",
+            "_esacpeHtmlChar.js",
+            "_freeGlobal.js",
+            "_getAllKeys.js",
+            "_getMapData.js",
+            "_getNative.js",
+            "_getRawTag.js",
+            "_getSymbols.js",
+            "_getTag.js",
+            "_getValue.js",
+            "_hashClear.js",
+            "_hashDelete.js",
+            "_hashGet.js",
+            "_hashHas.js",
+            "_hashSet.js",
+            "_isIndex.js",
+            "_isIterateeCall.js",
+            "_isKeyable.js",
+            "_isMasked.js",
+            "_isPrototype.js",
+            "_listCacheClear.js",
+            "_listCacheDelete.js",
+            "_listCacheGet.js",
+            "_listCacheHas.js",
+            "_listCacheSet.js",
+            "_mapCacheClear.js",
+            "_mapCacheDelete.js",
+            "_mapCacheGet.js",
+            "_mapCacheHas.js",
+            "_mapCacheSet.js",
+            "_mapToArray.js",
+            "_nativeCreate.js",
+            "_nativeKeys.js",
+            "_nodeUtil.js",
+            "_objectToString.js",
+            "_overArg.js",
+            "_root.js",
+            "_setCacheAdd.js",
+            "_setCacheHas.js",
+            "_setToArray.js",
+            "_stackClear.js",
+            "_stackDelete.js",
+            "_stackGet.js",
+            "_stackHas.js",
+            "_stackSet.js",
+            "_toSource.js",
+            "_trimmedEndIndex.js",
+            "chunk.js",
+            "eq.js",
+            "escape.js",
+            "isArgument.js",
+            "isArray.js",
+            "isArrayLike.js",
+            "isBuffer.js",
+            "isEqual.js",
+            "isFunction.js",
+            "isLength.js",
+            "isObject.js",
+            "isObjectLike.js",
+            "isSymbol.js",
+            "isTypedArray.js",
+            "keys.js",
+            "stubArray.js",
+            "stubFalse.js",
+            "toFinite.js",
+            "toUnteger.js",
+            "toNumber.js",
+            "toString.js"
+          ]
+        },
+        {
+          "lodash.uniqby": "index.ts"
+        },
+        {
+          "nanoid": "index.prod.js"
+        },
+        {
+          "next/dist/compiled/regenerator-runtime": "runtime.js"
+        },
+        {
+          "process": "browser.js"
+        },
+        {
+          "threads": [
+            {
+              "dist": [
+                {
+                  "types": "messages.js"
+                },
+                {
+                  "worker": [
+                    "implementation.browser.js",
+                    "index.js"
+                  ]
+                },
+                "common.js",
+                "serializer.js",
+                "symbols.js",
+                "transferable.js"
+              ]
+            },
+            "woworker.mjs"
+          ]
+        }
+      ]
+    },
+    {
+      "shared/modules/diagram-parser": "types.ts"
+    },
+    {
+      "webpack": [
+        {
+          "runtime": [
+            "chunk loaded",
+            "compat get default export",
+            "define property getters",
+            "ensure chunk",
+            "get javascript chunk filename",
+            "get mini-css chunk filename",
+            "global",
+            "hasOwnProperty shorthand",
+            "importScripts chunk loading",
+            "node module decorator",
+            "publicPath",
+            "startup chunk dependencies"
+          ]
+        },
+        "bootstrap",
+        "startup"
+      ]
+    }
+  ]
+}
